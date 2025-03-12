@@ -20,7 +20,7 @@ const Footer = () => {
               </Link>
             </div>
             <p className="mb-24 fw-bold">
-            Supplies That Empower Your Office
+            Essential Supplies for a Productive Workplace
             </p>
           </div>
 

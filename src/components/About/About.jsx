@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css"; // Optional: You can add custom styling in this CSS file
 import Collabs from "../Home/Collabs";
 import Brands from "../Home/Brands";
+import Image1 from "../../assets/banner/bg4.jpeg";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
           <div className="row align-items-center mx-5 py-36 ">
             <div className="col-lg-6 my-4 mb-lg-0">
               <h5 className="font-weight-bold text-primary mb-3 flex-align-start">
-                About <span className="text-dark">Majestic OfficeInc</span>
+                About <span className="text-dark">Majestic Office Inc</span>
               </h5>
               <h2 className="mb-3">
                 Your trusted partner for workplace solutions since 2017.
@@ -20,8 +21,8 @@ const About = () => {
             </div>
             <div className="col-lg-6 text-center">
               <img
-                src="https://buroneed.com/wp-content/uploads/2020/02/about-banner-01-2.jpg"
-                alt="About Majestic OfficeInc"
+                src={Image1}
+                alt="About Majestic Office Inc"
                 className="img-fluid rounded shadow"
                 style={{ maxHeight: "400px" }}
               />
@@ -29,26 +30,22 @@ const About = () => {
           </div>
           <div className="p-10">
             <p className="text-dark">
-              Majestic OfficeInc (MTI), established in 2017, is a leading supplier
-              of high-quality office supplies, pantry consumables, housekeeping
-              products, and equipment to the corporate world in Bangalore,
-              Chennai, and Mumbai. With over 30 years of combined experience,
-              our promoters have a deep understanding of the corporate supply
-              industry, enabling us to offer reliable and consistent service.
-              Our dedicated team, with over 40 years of collective experience,
-              ensures timely and efficient deliveries tailored to your needs.
-              Located in the heart of Bangalore's IT hubs, we serve key areas
-              like ITPL and Electronic City, providing swift service and quick
-              turnaround times. We also have a warehouse in SR Nagar, offering
-              easy access to our range of products. At MTI, we are committed to
-              making the lives of administrators and facilities managers easier
-              with quality products and dependable service, all backed by our
-              core values of integrity, reliability, and customer satisfaction.
+              Welcome to Majestic Office, a Corporate supplier of Computer,
+              Stationers and Housekeeping Product – your trusted source for
+              premium-quality housekeeping supplies and stationery essentials.
+              Established in 2010, Majestic Office supplier has grown to become
+              a leading supplier to corporate clients across India, committed to
+              supporting businesses and households with products that enhance
+              cleanliness, organization, and productivity. Managed by a team of
+              professionals with a combined experience of over 15 years,
+              Majestic Office operates with a focus on providing swift and
+              reliable service. Our central location allows us to cater
+              efficiently to a broad client base.
             </p>
           </div>
           {/* Vision & Mission */}
           <div className="row gy-4 text-center my-36 ">
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
               <div className="card">
                 <h4 className="text-primary font-weight-bold mb-10">
                   Our Vision
@@ -69,21 +66,25 @@ const About = () => {
                   supplies for workplace needs, enabling peace of mind.
                 </p>
               </div>
-            </div>
-            <div className="col-md-6">
+            </div> */}
+            <div className="col-md-12">
               <div className="card">
                 <h4 className="text-primary font-weight-bold mb-10">
-                  Why Choose Majestic OfficeInc?
+                  Why Choose Majestic Office Inc?
                 </h4>
                 <p className="text-muted">
-                  Our innovative housekeeping chemicals, <br /> comparable to
-                  TASKI and 3M, can reduce <br /> your facilities management
-                  costs <br />
-                  by up to 30%.
+                  As a dedicated supplier, we build long-term partnerships by
+                  delivering dependable, high-quality products at competitive
+                  prices. We understand the unique needs of our clients and
+                  offer personalized recommendations and support to ensure you
+                  have exactly what you need, when you need it. Thank you for
+                  choosing Majestic Office supplier as your supplier. We look
+                  forward to supporting your efforts to maintain clean,
+                  organized, and productive spaces.
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
               <div className="card">
                 <h4 className="text-primary font-weight-bold mb-10">
                   Our Core Values
@@ -96,10 +97,10 @@ const About = () => {
                   <li>Nationwide reach with PAN India supplies</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
 
-          <div className="text-center mb-5 my-40">
+          {/* <div className="text-center mb-5 my-40">
             <h2 className="font-weight-bold text-primary mb-40">Our Team</h2>
             <div className="row gy-4 justify-content-center text-center">
               <div className="col-md-6">
@@ -121,7 +122,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* Product Range */}
           <div className="text-center mt-40">
             <h2 className="font-weight-bold text-primary mb-40">

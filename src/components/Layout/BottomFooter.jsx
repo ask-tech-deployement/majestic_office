@@ -13,7 +13,7 @@ const BottomFooter = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Mega Trade.{" "}
+              Majestic Office.{" "}
             </a>
             All rights reserved. | Designed and developed by{" "}
             <a
@@ -21,7 +21,7 @@ const BottomFooter = () => {
               target="_blank"
               rel="noreferrer"
             >
-              ASK Technologies
+              ASK Technology
             </a>
           </p>
         </div>

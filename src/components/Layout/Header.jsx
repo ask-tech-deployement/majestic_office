@@ -392,7 +392,7 @@ const Header = () => {
               <div className="header-right flex-align d-lg-block d-none">
                 <div className="header-two-activities flex-align flex-wrap gap-32">
                   <Link
-                    to="http://targetdemo.asktek.net/tompg.buroneed.webapp/"
+                    to="http://targetdemo.asktek.net/tompg.majestic.office.webapp/"
                     className="flex-align flex-column gap-8 item-hover-two"
                     target="_blank"
                   >
